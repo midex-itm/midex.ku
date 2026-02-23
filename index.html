@@ -1143,8 +1143,8 @@
                 <span class="contact-tooltip">Telegram</span>
             </a>
 
-            <!-- Email - UPDATED to Gmail -->
-            <a href="mailto:midex.itm@gmail.com?subject=Design%20Inquiry" class="contact-circle email-circle" target="_blank">
+            <!-- Email - FIXED: Now opens Gmail compose -->
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=midex.itm@gmail.com&su=Design%20Inquiry" class="contact-circle email-circle" target="_blank">
                 <i class="fas fa-envelope"></i>
                 <span class="contact-tooltip">Gmail</span>
             </a>
@@ -1190,7 +1190,7 @@
                 <p>captivate your audience</p>
                 <div class="media-preview">
                     <span class="media-badge"><i class="fas fa-image"></i> 0</span>
-                    <span class="media-badge"><i class="fas fa-video"></i> 4</span>
+                    <span class="media-badge"><i class="fas fa-video"></i> 5</span>
                 </div>
             </div>
 
@@ -1303,7 +1303,7 @@
             }, 1500);
         });
 
-        // MEDIA DATA - FIXED with correct paths for midex.ku repository
+        // MEDIA DATA - FIXED with correct paths and case sensitivity
         const mediaData = {
             // CV images
             cv: {
@@ -1316,7 +1316,7 @@
                     { src: '/midex.ku/cv6.jpg' }
                 ]
             },
-            // Reports images and videos
+            // Reports images and videos - FIXED case for rep (2).MP4
             reports: {
                 images: [
                     { src: '/midex.ku/rep.jpg' },
@@ -1326,16 +1326,17 @@
                 ],
                 videos: [
                     { src: '/midex.ku/rep.mp4' },
-                    { src: '/midex.ku/rep (2).mp4' }
+                    { src: '/midex.ku/rep (2).MP4' }  // Fixed: uppercase MP4
                 ]
             },
-            // Presentations videos
+            // Presentations videos - RESTORED pr5.MP4
             presentations: {
                 videos: [
                     { src: '/midex.ku/pr.MP4' },
                     { src: '/midex.ku/pr2.MP4' },
                     { src: '/midex.ku/pr3.MP4' },
-                    { src: '/midex.ku/pr4.MP4' }
+                    { src: '/midex.ku/pr4.MP4' },
+                    { src: '/midex.ku/pr5.MP4' }  // Added back
                 ]
             },
             // Websites videos (WITH TEXT)
