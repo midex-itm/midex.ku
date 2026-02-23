@@ -1115,7 +1115,7 @@
         <!-- Profile Section -->
         <div class="profile-section">
             <div class="profile-image">
-                <img src="/midex/logo.jpg" alt="MidEx Logo">
+                <img src="/midex.ku/logo.jpg" alt="MidEx Logo">
             </div>
             <h1 class="profile-name">MidEx</h1>
             <p class="profile-bio">design studio</p>
@@ -1143,10 +1143,10 @@
                 <span class="contact-tooltip">Telegram</span>
             </a>
 
-            <!-- Email -->
+            <!-- Email - UPDATED to Gmail -->
             <a href="mailto:midex.itm@gmail.com?subject=Design%20Inquiry" class="contact-circle email-circle" target="_blank">
                 <i class="fas fa-envelope"></i>
-                <span class="contact-tooltip">Email</span>
+                <span class="contact-tooltip">Gmail</span>
             </a>
 
             <!-- Instagram -->
@@ -1190,7 +1190,7 @@
                 <p>captivate your audience</p>
                 <div class="media-preview">
                     <span class="media-badge"><i class="fas fa-image"></i> 0</span>
-                    <span class="media-badge"><i class="fas fa-video"></i> 5</span>
+                    <span class="media-badge"><i class="fas fa-video"></i> 4</span>
                 </div>
             </div>
 
@@ -1303,108 +1303,103 @@
             }, 1500);
         });
 
-        // MEDIA DATA - FIXED with correct paths including /images/ and /videos/
+        // MEDIA DATA - FIXED with correct paths for midex.ku repository
         const mediaData = {
-            // NO TEXT for CV
+            // CV images
             cv: {
                 images: [
-                    { src: '/midex/cv.jpg' },
-                    { src: '/midex/cv2.jpg' },
-                    { src: '/midex/cv3.jpg' },
-                    { src: '/midex/cv4.jpg' },
-                    { src: '/midex/cv5.jpg' },
-                    { src: '/midex/cv6.jpg' }
+                    { src: '/midex.ku/cv.jpg' },
+                    { src: '/midex.ku/cv2.jpg' },
+                    { src: '/midex.ku/cv3.jpg' },
+                    { src: '/midex.ku/cv4.jpg' },
+                    { src: '/midex.ku/cv5.jpg' },
+                    { src: '/midex.ku/cv6.jpg' }
                 ]
             },
-            // NO TEXT for Reports
+            // Reports images and videos
             reports: {
                 images: [
-                    { src: '/midex/rep.jpg' },
-                    { src: '/midex/rep2.jpg' },
-                    { src: '/midex/rep3.jpg' },
-                    { src: '/midex/rep4.jpg' }
+                    { src: '/midex.ku/rep.jpg' },
+                    { src: '/midex.ku/rep2.jpg' },
+                    { src: '/midex.ku/rep3.jpg' },
+                    { src: '/midex.ku/rep4.jpg' }
                 ],
                 videos: [
-                    { src: '/midex/rep.mp4' },
-                    { src: '/midex/rep (2).mp4' }
+                    { src: '/midex.ku/rep.mp4' },
+                    { src: '/midex.ku/rep (2).mp4' }
                 ]
             },
-            // NO TEXT for Presentations
+            // Presentations videos
             presentations: {
                 videos: [
-                    { src: '/midex/pr.mp4' },
-                    { src: '/midex/pr2.mp4' },
-                    { src: '/midex/pr3.mp4' },
-                    { src: '/midex/pr4.mp4' },
-                    { src: '/midex/pr5.mp4' }
+                    { src: '/midex.ku/pr.MP4' },
+                    { src: '/midex.ku/pr2.MP4' },
+                    { src: '/midex.ku/pr3.MP4' },
+                    { src: '/midex.ku/pr4.MP4' }
                 ]
             },
-            // TEXT for Websites
+            // Websites videos (WITH TEXT)
             websites: {
                 videos: [
                     { 
-                        src: '/midex/web.MOV', 
+                        src: '/midex.ku/web.MOV', 
                         title: 'بەدینی فارم', 
                         description: 'وێبسایتەک بۆ زانیاری لسەر دەرمان و نەخۆشییان' 
                     },
                     { 
-                        src: '/midex/web2.MOV', 
+                        src: '/midex.ku/web2.MOV', 
                         title: 'لێگەریان ل کاری', 
                         description: 'وێبسایتەک بۆ لێگەریان ل کاری' 
                     }
                 ]
             },
-            // NO TEXT for Ads
-            ads: {
-                // Empty
-            },
-            // NO TEXT for Research
+            // Ads - Empty
+            ads: {},
+            // Research videos
             research: {
                 videos: [
-                    { src: '/midex/re1.mp4' },
-                    { src: '/midex/re2.mp4' }
+                    { src: '/midex.ku/re1.MP4' },
+                    { src: '/midex.ku/re2.MP4' }
                 ]
             },
-            // TEXT for Course Books
+            // Course Books videos (WITH TEXT)
             coursebooks: {
                 videos: [
                     { 
-                        src: '/midex/mal.MP4', 
+                        src: '/midex.ku/mal.MP4', 
                         title: 'بیرکاری', 
                         description: 'دروستکرنا مەلزەمەکا گەلەک سادە' 
                     }
                 ]
             },
-            // NO TEXT for Menus - Using correct case for .PNG files
+            // Menu images - exact case as in repository
             menus: {
                 images: [
-                    { src: '/midex/m.PNG' },
-                    { src: '/midex/m2.png' },
-                    { src: '/midex/m3.png' },
-                    { src: '/midex/m4.PNG' },
-                    { src: '/midex/m5.PNG' },
-                    { src: '/midex/m6.png' }
+                    { src: '/midex.ku/m.PNG' },
+                    { src: '/midex.ku/m2.PNG' },
+                    { src: '/midex.ku/m3.PNG' },
+                    { src: '/midex.ku/m4.PNG' },
+                    { src: '/midex.ku/m5.PNG' },
+                    { src: '/midex.ku/m6.PNG' }
                 ]
             },
-            // TEXT for System
+            // System videos (WITH TEXT)
             system: {
                 videos: [
                     { 
-                        src: '/midex/sys.MOV', 
+                        src: '/midex.ku/sys.MOV', 
                         title: 'سیستەمێ قوتابخانێ', 
                         description: 'سیستەمێ قوتابخانێ بۆ پولا ١ هەتا ١٢' 
                     },
                     { 
-                        src: '/midex/sys2.MOV', 
+                        src: '/midex.ku/sys2.MOV', 
                         title: 'سیستەمێ خوارنگەهێ', 
                         description: 'سیستەمێ خوارنگەهێ' 
                     }
                 ]
             },
-            // TEXT for App
-            app: {
-                // Empty
-            }
+            // App - Empty
+            app: {}
         };
 
         // Fullscreen viewer variables
